@@ -1,0 +1,303 @@
+html{
+    position: relative;
+    min-height: 100%;
+}
+body{
+    margin-bottom: 50px;
+}
+.navigation {
+    z-index: 9999;
+    width: 100%;
+    background-color: #bb0000;
+    height: 99px;
+    position: fixed;
+}
+.navigation .navbar-brand>img{
+    margin-top: -65px;
+}
+.navbar {
+    border: 0px;
+}
+.container-fluid {
+    background-color: #bb0000;
+    padding-top: 49px;
+}   
+.navbar-default .navbar-nav>li>a {
+    font-size: 24px;
+    color: #fff;
+}
+.navbar-default .navbar-nav>li>a:hover {
+    -moz-border-radius-topleft: 4px;
+    -moz-border-radius-topright: 4px;
+    -moz-border-radius-bottomright: 0px;
+    -moz-border-radius-bottomleft: 0px;
+    -webkit-border-radius: 4px 4px 0px 0px;
+    border-radius: 4px 4px 0px 0px;
+    background-color: #fff;
+    color: #000;
+}
+.navbar-nav>li>.dropdown-menu {
+    font-size: 20px;
+    width: 100%;
+}
+.navbar-nav>li>.dropdown-menu>li>a:hover{
+    background-color: #bb0000;
+    color: #fff;
+}
+.dropdown:hover .dropdown-menu{
+    margin-top: -1px;
+    display: block;
+}
+.navbar-default .navbar-nav>li>a.dropdown-toggle{
+    color: #fff;
+}
+.navbar-default .navbar-nav>li>a.dropdown-toggle:hover{
+    color: #000;
+}
+.carousel {
+    width: 100%;
+    padding-top: 99px;
+}
+.carousel-inner > .item > img, .carousel-inner > .item > a > img {
+    display: block;
+    max-height: 550px;
+    line-height: 1;
+    margin: 0 auto;
+    width: 100%;
+}
+.carousel-control.right {
+    background-color: transparent;
+}
+.carousel-inner .carousel-caption a {
+    color: #fff;        
+}
+h1 {
+    color: #057fd0;
+    margin-left: 60px;
+    margin-right: 60px; 
+    padding-bottom: 15px;
+    text-align: center;
+    border-bottom: 3px solid #057fd0;
+}
+
+.col-xs-12 {
+    color: #057fd0;
+    border-bottom: 1px solid #057fd0;
+    width: 98%;
+    margin-bottom: 10px;
+}
+.col-sm-6 img {
+    float: left;
+    width: 100%;
+}
+
+.myButton {
+    float: right;
+    -moz-box-shadow: 0px 1px 0px 0px #f0f7fa;
+    -webkit-box-shadow: 0px 1px 0px 0px #f0f7fa;
+    box-shadow: 0px 1px 0px 0px #f0f7fa;
+    background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #33bdef), color-stop(1, #019ad2));
+    background:-moz-linear-gradient(top, #33bdef 5%, #019ad2 100%);
+    background:-webkit-linear-gradient(top, #33bdef 5%, #019ad2 100%);
+    background:-o-linear-gradient(top, #33bdef 5%, #019ad2 100%);
+    background:-ms-linear-gradient(top, #33bdef 5%, #019ad2 100%);
+    background:linear-gradient(to bottom, #33bdef 5%, #019ad2 100%);
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#33bdef', endColorstr='#019ad2',GradientType=0);
+    background-color:#33bdef;
+    -moz-border-radius:6px;
+    -webkit-border-radius:6px;
+    border-radius:6px;
+    border:1px solid #057fd0;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-family:Arial;
+    font-size:15px;
+    font-weight:bold;
+    padding:6px 24px;
+    text-decoration:none;
+    text-shadow:0px -1px 0px #5b6178;
+}
+.myButton:hover {
+    background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #019ad2), color-stop(1, #33bdef));
+    background:-moz-linear-gradient(top, #019ad2 5%, #33bdef 100%);
+    background:-webkit-linear-gradient(top, #019ad2 5%, #33bdef 100%);
+    background:-o-linear-gradient(top, #019ad2 5%, #33bdef 100%);
+    background:-ms-linear-gradient(top, #019ad2 5%, #33bdef 100%);
+    background:linear-gradient(to bottom, #019ad2 5%, #33bdef 100%);
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#019ad2', endColorstr='#33bdef',GradientType=0);
+    background-color:#019ad2;
+}
+.myButton:active {
+    position:relative;
+    top:1px;
+}
+#map-text p {
+    text-align: center;
+    text-transform: uppercase;
+    color: #057fd0;
+    font-weight: bold;
+}
+#map-text{
+    margin-top: 20px;
+    border-bottom: none;
+}
+iframe {
+    width: 100%;
+}
+#right {
+    margin-top: 20px;
+}
+.uppers {
+    color: #057fd0;
+    font-weight: bold;
+    font-size: 18pt;
+}
+.uppers:nth-child(1) {
+    padding-top: 100px;
+}
+.privacy-police {
+    height: auto;
+    max-height: 50px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #222020;
+}
+.privacy-police p{
+    text-align: left;
+    color: #fff;
+    margin-bottom: 0px;
+}
+#middle p{
+    text-align: center
+}
+#righty p {
+    text-align: right;
+}
+.aboutus-title {
+    padding-top: 105px;
+    text-align: center;
+    color: #057fd0;
+    font-weight: bold;
+    font-size: 30pt;
+}
+hr {
+    width: 100%;
+    background-color: #057fd0;
+    height: 3px;
+}
+.questions {
+    font-size: 20pt;
+    font-weight: bold;
+    color: #057fd0;
+}
+.contacts {
+    color: #057fd0;
+    font-weight: bold;
+    font-size: 18pt;
+}
+.main-picture img {
+    margin-bottom: 20px;
+    float: left;
+    width: 100%;
+}
+.col-md-4 {
+    border: 1px groove;
+    background: lightgrey;
+}
+.facts {
+    text-decoration: underline;
+    font-size: 20pt;
+    font-weight: bold;
+    color: #ac2925; 
+}
+#mask {
+    position:absolute;
+    left:0;
+    top:0;
+    z-index:9000;
+    background-color:#000;
+    display:none;
+}  
+#boxes .window {
+    position:absolute;
+    left:0;
+    top:0;
+    width:440px;
+    height:200px;
+    display:none;
+    z-index:9999;
+    padding:20px;
+    border-radius: 15px;
+    text-align: center;
+}
+#boxes #dialog {
+    width:450px; 
+    height:auto;
+    padding:10px;
+    background-color:#ffffff;
+    font-family: 'Segoe UI Light', sans-serif;
+    font-size: 15pt;
+}
+.maintext{
+    text-align: center;
+    font-family: "Segoe UI", sans-serif;
+    text-decoration: none;
+}
+body{
+    background: url('bg.jpg');
+}
+#lorem{
+    font-family: "Segoe UI", sans-serif;
+    font-size: 12pt;
+    text-align: left;
+}
+#popupfoot{
+    font-family: "Segoe UI", sans-serif;
+    font-size: 16pt;
+    padding: 10px 20px;
+}
+#popupfoot a{
+    text-decoration: none;
+}
+.agree:hover{
+    background-color: #D1D1D1;
+}
+.popupoption:hover{
+    background-color:#D1D1D1;
+    color: green;
+}
+.popupoption2:hover{
+
+    color: red;
+}
+.gallery-tittle {
+    font-size: 30pt;
+    font-weight: bold;
+    color: #057fd0;
+    border-bottom: 0px;
+}
+.special {
+    font-size: 15pt;
+}
+.fa-star {
+    color: yellow;
+}
+.fa-star-half-o {
+    color: yellow;
+}
+.reviews {
+    font-size: 15pt;
+}
+.fa-circle {
+    color: grey;
+}
+.container {
+    padding-left: 0px;
+}
+.container img {
+    width: 100%;
+}
